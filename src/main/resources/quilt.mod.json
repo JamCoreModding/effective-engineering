@@ -2,24 +2,24 @@
   "schema_version": 1,
   "quilt_loader": {
     "group": "io.github.jamalam360",
-    "id": "templatemod",
+    "id": "effective-engineering",
     "version": "${version}",
     "metadata": {
-      "name": "Template Mod",
-      "description": "A Quilt mod template",
+      "name": "Effective Engineering",
+      "description": "A new tech mod built exclusively for Quilt.",
       "contributors": {
         "Jamalam": "Owner"
       },
       "contact": {
-        "sources": "https://github.com/JamCoreModding/TemplateMod",
-        "issues": "https://github.com/JamCoreModding/TemplateMod/issues"
+        "sources": "https://github.com/JamCoreModding/effective-engineering",
+        "issues": "https://github.com/JamCoreModding/effective-engineering/issues"
       },
       "license": "MIT",
-      "icon": "assets/templatemod/icon.png"
+      "icon": "assets/effective-engineering/icon.png"
     },
     "intermediate_mappings": "net.fabricmc:intermediary",
     "entrypoints": {
-      "init": "io.github.jamalam360.templatemod.TemplateModInit"
+      "init": "io/github/jamalam360/effective/engineering.EffectiveEngineering"
     },
     "depends": [
       {
@@ -36,5 +36,5 @@
       }
     ]
   },
-  "mixin": "templatemod.mixins.json"
+  "mixin": "effective-engineering.mixins.json"
 }

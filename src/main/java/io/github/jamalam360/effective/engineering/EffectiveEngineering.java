@@ -22,15 +22,15 @@
  * THE SOFTWARE.
  */
 
-package io.github.jamalam360.templatemod;
+package io.github.jamalam360.effective_engineering;
 
 import io.github.jamalam360.jamlib.log.JamLibLogger;
 import net.minecraft.util.Identifier;
 import org.quiltmc.loader.api.ModContainer;
 import org.quiltmc.qsl.base.api.entrypoint.ModInitializer;
 
-public class TemplateModInit implements ModInitializer {
-    public static final String MOD_ID = "templatemod";
+public class EffectiveEngineering implements ModInitializer {
+    public static final String MOD_ID = "effective_engineering";
     public static final JamLibLogger LOGGER = JamLibLogger.getLogger(MOD_ID);
 
     @Override
