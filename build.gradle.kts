@@ -19,6 +19,7 @@ repositories {
             Pair("https://maven.terraformersmc.com/releases", listOf("com.terraformersmc")),
             Pair("https://api.modrinth.com/maven", listOf("maven.modrinth")),
             Pair("https://maven.jamalam.tech/releases", listOf("io.github.jamalam360")),
+            Pair("https://maven.wispforest.io", listOf("io.wispforest"))
         )
 
     for (mavenPair in mavenUrls) {
@@ -41,4 +42,7 @@ dependencies {
     modApi(libs.bundles.required)
     modImplementation(libs.bundles.optional)
     modLocalRuntime(libs.bundles.runtime)
+
+    annotationProcessor(libs.owo)
+    include(libs.owo.sentinel)
 }

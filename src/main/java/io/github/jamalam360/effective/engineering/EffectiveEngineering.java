@@ -22,7 +22,7 @@
  * THE SOFTWARE.
  */
 
-package io.github.jamalam360.effective_engineering;
+package io.github.jamalam360.effective.engineering;
 
 import io.github.jamalam360.jamlib.log.JamLibLogger;
 import net.minecraft.util.Identifier;
